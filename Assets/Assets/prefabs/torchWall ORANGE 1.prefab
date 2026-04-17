@@ -127,11 +127,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 960466119831486436, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_Range
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 960466119831486436, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_Intensity
-      value: 8388608
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 960466119831486436, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_Lightmapping
@@ -139,7 +139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 960466119831486436, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_ShadowRadius
-      value: 10
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 960466119831486436, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_BounceIntensity
@@ -167,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5768954691483249942, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_ShapeRadius
-      value: 10
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8148950652732107812, guid: 308f661713ee247498c5b8ad71558077, type: 3}
       propertyPath: m_LocalPosition.x

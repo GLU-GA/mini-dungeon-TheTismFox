@@ -93,7 +93,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 10.96
+  m_ShadowRadius: 0.5
   m_ShadowAngle: 0
   m_LightUnit: 4
   m_LuxAtDistance: 1
@@ -121,11 +121,6 @@ MonoBehaviour:
   m_ShapeWidth: -1
   m_ShapeHeight: -1
   m_AspectRatio: -1
-  m_Version: 14
-  m_ObsoleteShadowResolutionTier: 1
-  m_ObsoleteUseShadowQualitySettings: 0
-  m_ObsoleteCustomShadowResolution: 512
-  m_ObsoleteContactShadows: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
@@ -134,7 +129,7 @@ MonoBehaviour:
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
-  m_ShapeRadius: 10.96
+  m_ShapeRadius: 0.5
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -182,7 +177,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
+  m_ShadowNearPlane: 0.3
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -240,6 +235,11 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
+  m_Version: 14
+  m_ObsoleteShadowResolutionTier: 1
+  m_ObsoleteUseShadowQualitySettings: 0
+  m_ObsoleteCustomShadowResolution: 512
+  m_ObsoleteContactShadows: 0
 --- !u!1 &5679288283475953373
 GameObject:
   m_ObjectHideFlags: 0
